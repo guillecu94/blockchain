@@ -22,7 +22,7 @@ _Aplicaciones prácticas_:
 
 _Clasificación_:
 
-1. Segun el acceso de los datos
+1. Segun el acceso de los datos:
 ··* **cadena de bloques pública**: es aquella en la que no hay restricciones ni para leer los datos de la cadena de bloques ni para enviar transacciones para que sean incluidas en la cadena de bloques. Son ideales para uso en aplicaciones totalmente descentralizadas como por ejemplo para internet.
 ··* **Cadena de bloques privada**: es aquella en la que tanto los accesos a los datos de la cadena de bloque como el envío de transacciones para ser incluidas, están limitadas a una lista predefinida de entidades.
 2. Segun los permisos
