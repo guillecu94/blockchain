@@ -4,9 +4,9 @@ El blockchain, o _cadena de bloques_ , es una base de datos distribuida, formada
 Es una tecnología especialmente adecuada para almacenar de forma creciente datos ordenados en el tiempo y sin posibilidad de modificación ni revisión.
 
 Aspectos:
-··* **almacenamiento de datos**
-··* **transmisión de datos**
-··* **confirmación de datos (mediante un proceso de consenso entre los nodos participantes.**
+⋅⋅* **almacenamiento de datos**
+⋅⋅* **transmisión de datos**
+⋅⋅* **confirmación de datos (mediante un proceso de consenso entre los nodos participantes.**
 
 Los datos almacenados en la cadena de bloques suelen ser transacciones, por eso es frecuente llamar a los datos “Transaccionales”, pero no es necesario que lo sean.
 
