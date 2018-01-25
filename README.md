@@ -65,3 +65,5 @@ _Clasificación_:
 # ¿Qué es una cadena lateral?
 
 Una cadena lateral, en inglés Sidechain, es una cadena de bloques que valida datos desde otra cadena de bloques a la que se llama principal. Su utilidad principal es poder aportar funcionalidades nuevas, las cuales pueden estar en periodo de prueba, apoyándose en la confianza ofrecida por la cadena de bloques principal.
+
+
