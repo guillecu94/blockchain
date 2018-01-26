@@ -5,7 +5,7 @@ The blockchain technology is currently at the _peak of inflated expectations_ an
 Various benefits of this technology are being envisaged such as decentralized trust, cost savings, transparency, and efficiency.
 To understand the blockchain technology we have to focus on the distributed systems first because it is his roots.
 
-##Distributed systems
+## Distributed systems
 
 Distributed systems are a computing paradigm whereby two or more nodes work with each other in a coordinated fashion in order to achieve a common outcome and it's modeled in sucha a way that end users see it as a single logical platform.
 
@@ -30,12 +30,12 @@ This is also known as Brewer's theorem. The theorem states that any distributed 
  
  In general, there are two types of fault that a node can experience: where a faulty node has simply crashed and where the faulty node can exhibit malicious or inconsistent behavior arbitrarily. This is the type which is difficult to deal with since it can cause confusion due to misleading information.
  
- BYZANTINE GENERAL PROBLEM
+ ## BYZANTINE GENERAL PROBLEM
  
  We've seen that Byzantine nodes are nodes which have an arbitrary behavior. In order to resolve the problem, a consensus was created. The consensus is a process of agreement between distrusting nodes on a final state of data. In order to achieve consensus different algorithms can be used. It easy to reach an agreement between two nodes but when multiple nodes are participating in a distributed system and they need to agree on a single value it becomes very difficult to achieve consensus. This concept of achieving consensus between multiple nodes is known as distributed consensus.
  
  
- CONSENSUS MECHANISMS.
+ ## CONSENSUS MECHANISMS.
  
  A consensus mechanisms is a set of steps that are taken by all, or most, nodes in order to agree on a proposed state of value. For more than three decades this concept has been researched by computer scientists in the industry and Academia. Consensus mechanisms have recently come into the limelight and gained much popularity with the advent of bitcoin and blockchain.
 
@@ -51,25 +51,25 @@ There are various requirements which must be met in order to provide the desired
   
   Integrity: This is a requirement where by no node makes the decision more than once. The nodes make decisions only once in a single consensus cyrcle.
   
-TYPES OF CONSENSUS MECHANISM.
+## TYPES OF CONSENSUS MECHANISM.
 
-  *Byzantine fault tolerance-based*: With no compute intensive operations such as partial hash inversion, this method relies on a simple scheme of nodes that are publishing signed messages. Eventually, when a certain number of messages are received, then an agreement is reached.
+  ***Byzantine fault tolerance-based***: With no compute intensive operations such as partial hash inversion, this method relies on a simple scheme of nodes that are publishing signed messages. Eventually, when a certain number of messages are received, then an agreement is reached.
  
- *Leader-based consensus mechanisms*: This type of mechanisms requires nodes to complete for the _leader-election lottery_ and the node that wins it proposes a final value.
+ ***Leader-based consensus mechanisms***: This type of mechanisms requires nodes to complete for the _leader-election lottery_ and the node that wins it proposes a final value.
  
 Paxos is the most famous protocol which have been proposed. In Paxos nodes are assigned various roles such as Proposer, Acceptor, and Learner. Nodes or processes are named replicas and consensus is achieved in the presence of faulty nodes by agreement among a majority of nodes.
 
 RAFT, and alternative to Paxos, works by assigning any of three states, that is, Follower, Candidate, or Leader, to the nodes. A Leader is elected after a candidate node receives enough votes and all changes now have to go through the Leader, who commits the proposed changes once replication on the majority of follower nodes is completed.
 
-THE CONCEPT OF ELECTRONIC CASH.
+## THE CONCEPT OF ELECTRONIC CASH.
 
  This concept is also essential to appreciate the first and astonishingly successful application of blockchain.
  
  Fundamental issues that need to be addressed in e-cash systems are accountability and anonymity. _David Chaum_ addressed both of these issues by introducing two cryptographic operations, namely blind signatures and secret sharing:
  
-  *Blind signatures* allow signing a document without actually seeing it.
+  1. *Blind signatures* allow signing a document without actually seeing it.
   
-  *Secret sharing* is a concept that allows the detection of using the same e-cash token twice.
+  2. *Secret sharing* is a concept that allows the detection of using the same e-cash token twice.
  
 A different but relevant concept called *hashcash* was introduced by _Adam Back_ in 1997 as a PoW system to control e-mail spam. The idea of Hashcash is simple: if a legitime users want to send e-mails then they are required to compute a hash as a proof that they have spent a reasonable amount of computing resources before sending the e-mail.
 
@@ -82,7 +82,7 @@ Blockchain is a peer-to-peer distributed ledger that is cryptographically secure
 
 Blockchain can be though of as a layer of distributed peer-to-peer network running on top of the Internet.
 
-*From a business point of view* a blockchain can be defined as a platform whereby peers can exchange values using transactions wihout the need for a central trusted arbitrator. This is a poweful concept and once readers understand it they will realize the tsunamic potential of blockchain technology. This allows blockchain to be decentralized consensus mechanism where no single authority is in charge of the database.
+***From a business point of view*** a blockchain can be defined as a platform whereby peers can exchange values using transactions wihout the need for a central trusted arbitrator. This is a poweful concept and once readers understand it they will realize the tsunamic potential of blockchain technology. This allows blockchain to be decentralized consensus mechanism where no single authority is in charge of the database.
 
 A block is simply a selection of transactions bundled together in order to organize them logically. It is made up of transactions and its size is variable depending on the type and design of the blockchain in use. A reference to a previous block is also incluided in the block unless it's a genesis block. A genesis block is the first block in the blockchain that was hardcoded at the time the blockchain was started. The structure of a block is also dependent on the type and design of a blockchain, but generally there are a few attributes that are essential to the functionality of a block, such as the block header, pointers to previous blocks, the time stamp, nonce, transaction counter, transactions, and other attributes.
 
@@ -128,4 +128,5 @@ A node in a blockchain network performs various functions depending on the role 
 
 9. Smart contracts.
 
-These programs 
+These programs run on the top of the blockchain and encapsulate the business logic to be executed when certain conditions are met.
+
