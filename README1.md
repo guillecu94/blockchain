@@ -61,21 +61,6 @@ Paxos is the most famous protocol which have been proposed. In Paxos nodes are a
 
 RAFT, and alternative to Paxos, works by assigning any of three states, that is, Follower, Candidate, or Leader, to the nodes. A Leader is elected after a candidate node receives enough votes and all changes now have to go through the Leader, who commits the proposed changes once replication on the majority of follower nodes is completed.
 
-## THE CONCEPT OF ELECTRONIC CASH.
-
- This concept is also essential to appreciate the first and astonishingly successful application of blockchain.
- 
- Fundamental issues that need to be addressed in e-cash systems are accountability and anonymity. _David Chaum_ addressed both of these issues by introducing two cryptographic operations, namely blind signatures and secret sharing:
- 
-  1. *Blind signatures* allow signing a document without actually seeing it.
-  
-  2. *Secret sharing* is a concept that allows the detection of using the same e-cash token twice.
- 
-A different but relevant concept called *hashcash* was introduced by _Adam Back_ in 1997 as a PoW system to control e-mail spam. The idea of Hashcash is simple: if a legitime users want to send e-mails then they are required to compute a hash as a proof that they have spent a reasonable amount of computing resources before sending the e-mail.
-
-In 2009 the first practical implementation of cryptocurrency named *bitcoin* was introduced; for the very first time it solved the problem of distributed consensus in a trustless network. It uses public key cryptography with hashcash as PoW to provide a secure, controlled and decentralized method of minting digital currency.
-
-
 ## INTRODUCTION TO BLOCKCHAIN.
 
 Blockchain is a peer-to-peer distributed ledger that is cryptographically secure, append-only-m, immutable, and updateable only via consensus or agreement among peers.
@@ -129,4 +114,19 @@ A node in a blockchain network performs various functions depending on the role 
 9. Smart contracts.
 
 These programs run on the top of the blockchain and encapsulate the business logic to be executed when certain conditions are met.
+
+## FEATURES OF THE BLOCKCHAIN.
+
+1. Distributed consensus. this enable a blockchain to present one version of truth wich is agreed by all parties without the requierement of the central authority.
+2. Transaction verification
+3. platforms for smart contracts.
+4. Transferring value between peers.
+5. Generating Cryptocurrency.
+6. Smart property.
+7. Provider of security.
+8. Immutability
+9.Uniqueness
+10. Smart Contracts.
+
+## Aplication of blockchain technology.
 
