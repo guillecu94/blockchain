@@ -1,4 +1,4 @@
-#BLOCKCHAIN
+# BLOCKCHAIN
 
 The blockchain technology is currently at the _peak of inflated expectations_ and is expected to be ready for mainstream adoption in 5 to 10 years.
 
@@ -17,11 +17,11 @@ CAP THEOREM
 
 This is also known as Brewer's theorem. The theorem states that any distributed system cannot have Consistency, Availability, and Partion tolerance simultaneously:
 
-    *Consistency* is a property that ensures that all nodes in a distributed system have a single latest copy of data.
+   **Consistency** is a property that ensures that all nodes in a distributed system have a single latest copy of data.
     
-    *Availability* means that eh system is up, accesible for use, and is accepting incoming requests and responding with data without any failures as and when required.
+   **Availability** means that eh system is up, accesible for use, and is accepting incoming requests and responding with data without any failures as and when required.
     
-    *Partion tolerance* ensures that if a group of nodes fails the distributed system still continues to operate correctly.
+   **Partion tolerance** ensures that if a group of nodes fails the distributed system still continues to operate correctly.
     
   It has been proven that a distributed system cannot have all the afore mentioned three properties at the same time.
     
@@ -76,7 +76,7 @@ A different but relevant concept called *hashcash* was introduced by _Adam Back_
 In 2009 the first practical implementation of cryptocurrency named *bitcoin* was introduced; for the very first time it solved the problem of distributed consensus in a trustless network. It uses public key cryptography with hashcash as PoW to provide a secure, controlled and decentralized method of minting digital currency.
 
 
-##INTRODUCTION TO BLOCKCHAIN.
+## INTRODUCTION TO BLOCKCHAIN.
 
 Blockchain is a peer-to-peer distributed ledger that is cryptographically secure, append-only-m, immutable, and updateable only via consensus or agreement among peers.
 
@@ -86,13 +86,13 @@ Blockchain can be though of as a layer of distributed peer-to-peer network runni
 
 A block is simply a selection of transactions bundled together in order to organize them logically. It is made up of transactions and its size is variable depending on the type and design of the blockchain in use. A reference to a previous block is also incluided in the block unless it's a genesis block. A genesis block is the first block in the blockchain that was hardcoded at the time the blockchain was started. The structure of a block is also dependent on the type and design of a blockchain, but generally there are a few attributes that are essential to the functionality of a block, such as the block header, pointers to previous blocks, the time stamp, nonce, transaction counter, transactions, and other attributes.
 
-###HNICAL DEFINITIONS OF BLOCKCHAIN.  
+### TECHNICAL DEFINITIONS OF BLOCKCHAIN.  
 
   Blockchain is a decentralized consensus mechanism. In a blockchain, all peers eventually come to an agreement regarding the state of a transaction.
   Blockchain is a distributed shared ledger. Blockchain can be considered a shared ledger of transactions. The transactions are ordered and grouped into blocks. Currently, the real-world model is based on private databases that each organization maintains whereas the distributed ledger can serve as a single source of truth for all member organizations that are using blockchain.
   Blockchain is a data structurer; it is basically a linked list that uses hash pointers instead of normal pointers. Hash pointers are used to point to the previous block.
   
-##GENERIC ELEMENTS OF A BLOCKCHAIN.
+## GENERIC ELEMENTS OF A BLOCKCHAIN.
 
 1. Addresses.
 
